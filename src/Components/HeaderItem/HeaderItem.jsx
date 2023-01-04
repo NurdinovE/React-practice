@@ -6,6 +6,7 @@ const HeaderItem = (props) =>{
 
     return (
         <li className="nav-item">
+            {/*<a href={props.link}>{props.itemName}</a>*/}
             <Link to={props.link} className="nav-link">{props.itemName}</Link>
         </li>
     )
